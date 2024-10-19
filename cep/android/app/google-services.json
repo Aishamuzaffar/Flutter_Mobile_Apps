@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "391449773374",
+    "project_id": "health-278cd",
+    "storage_bucket": "health-278cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391449773374:android:afff36d9f7686f12e7d86f",
+        "android_client_info": {
+          "package_name": "com.example.cep"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVt9WNCGkihZzS2utvrNw2jPvDL3nkNN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

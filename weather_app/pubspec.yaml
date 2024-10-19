@@ -1,0 +1,61 @@
+name: weather_app
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  lottie: ^2.6.0  
+  provider: ^6.0.3
+
+
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^4.10.1
+  firebase_core: ^2.17.0
+  cloud_firestore: ^4.9.3
+  http: ^1.1.0
+  intl: ^0.18.1
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/bg.png
+    - assets/anims/weather1.json
+    - assets/anims/weather3.json
+    - assets/images/night.jpg
+    - assets/images/day.jpg
+    - assets/icons/clouds.png
+    - assets/icons/humidity.png
+    - assets/icons/windspeed.png
+    - assets/icons/barometer.png
+    - assets/icons/cloud.png
+    - assets/icons/wave.png
+    - assets/icons/sun.png
+  #   - images/a_dot_ham.jpeg
+
+  fonts:
+      - family: DancingScript
+        fonts:
+          - asset: assets\fonts\DancingScript-Bold.ttf
+
+      - family: Vidaloka-Regular
+        fonts:
+          - asset: assets\fonts\Vidaloka-Regular.ttf
+
+  
